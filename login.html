@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Seguro</title>
+</head>
+<body>
+    <h1>SQL INJECTION</h1>
+    <h3>LOGIN SEGUR</h3>
+    <form action="segura.php" method="post">
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" required><br>
+
+        <input type="submit" value="Iniciar Sesión"><br>
+    </form>
+    <br><br>
+    <h3>LOGIN NO SEGUR</h3>
+    <form action="NOsegura.php" method="post">
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" name="user" required><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="text" name="password" required><br>
+
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>
